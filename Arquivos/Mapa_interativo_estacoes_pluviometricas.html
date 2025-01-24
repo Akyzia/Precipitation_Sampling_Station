@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c795c60d7e99286bbebd0208a458fbc5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c795c60d7e99286bbebd0208a458fbc5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c795c60d7e99286bbebd0208a458fbc5 = L.map(
+                "map_c795c60d7e99286bbebd0208a458fbc5",
+                {
+                    center: [-26.26, 48.91],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12.25,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3e50f42514dc3e907c77e896d86d6324 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3e50f42514dc3e907c77e896d86d6324.addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+    
+            var marker_7e99a7da118fa656578f8d0cdb2e8fa5 = L.marker(
+                [-26.3667, -48.9833],
+                {}
+            ).addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+    
+        var popup_686ec3cd1d61cd7ef1f234f517c3118d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0854a531cfb813a1b73c716a68663b17 = $(`<div id="html_0854a531cfb813a1b73c716a68663b17" style="width: 100.0%; height: 100.0%;">POSTO ESTRADA BLUMENAU KM 18</div>`)[0];
+                popup_686ec3cd1d61cd7ef1f234f517c3118d.setContent(html_0854a531cfb813a1b73c716a68663b17);
+            
+        
+
+        marker_7e99a7da118fa656578f8d0cdb2e8fa5.bindPopup(popup_686ec3cd1d61cd7ef1f234f517c3118d)
+        ;
+
+        
+    
+    
+            var marker_1982efa3c082f849faac647d3d064435 = L.marker(
+                [-26.3, -48.85],
+                {}
+            ).addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+    
+        var popup_e5164169db6c713f3a0770f91ee75857 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0497e6f999675b4e1fe9db87310b6d2 = $(`<div id="html_d0497e6f999675b4e1fe9db87310b6d2" style="width: 100.0%; height: 100.0%;">JOINVILLE</div>`)[0];
+                popup_e5164169db6c713f3a0770f91ee75857.setContent(html_d0497e6f999675b4e1fe9db87310b6d2);
+            
+        
+
+        marker_1982efa3c082f849faac647d3d064435.bindPopup(popup_e5164169db6c713f3a0770f91ee75857)
+        ;
+
+        
+    
+    
+            var marker_6fff00199f45bba2c5a97e14184c80c9 = L.marker(
+                [-26.3217, -48.8464],
+                {}
+            ).addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+    
+        var popup_8736f87ab542bcd9b2970de20baed218 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d12098dd7b98971c713cf6460b07640a = $(`<div id="html_d12098dd7b98971c713cf6460b07640a" style="width: 100.0%; height: 100.0%;">JOINVILLE (RVPSC)</div>`)[0];
+                popup_8736f87ab542bcd9b2970de20baed218.setContent(html_d12098dd7b98971c713cf6460b07640a);
+            
+        
+
+        marker_6fff00199f45bba2c5a97e14184c80c9.bindPopup(popup_8736f87ab542bcd9b2970de20baed218)
+        ;
+
+        
+    
+    
+            var marker_bfb0f567da12ab33a354c6ee70b7b7d1 = L.marker(
+                [-26.25, -48.9667],
+                {}
+            ).addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+    
+        var popup_5575c115b8f3bc9bbf2be93b9c92ad44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4cb3946600197b323fe549df4339868 = $(`<div id="html_d4cb3946600197b323fe549df4339868" style="width: 100.0%; height: 100.0%;">ÁGUA AZUL</div>`)[0];
+                popup_5575c115b8f3bc9bbf2be93b9c92ad44.setContent(html_d4cb3946600197b323fe549df4339868);
+            
+        
+
+        marker_bfb0f567da12ab33a354c6ee70b7b7d1.bindPopup(popup_5575c115b8f3bc9bbf2be93b9c92ad44)
+        ;
+
+        
+    
+    
+            var marker_ddcb433e69f623dcd68b4f7b9a47ba90 = L.marker(
+                [-26.4483, -48.8303],
+                {}
+            ).addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+    
+        var popup_4027a8c75299faf1ddcbe2f5757339a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a09390ac1d31d7c501fb044fcb00be9d = $(`<div id="html_a09390ac1d31d7c501fb044fcb00be9d" style="width: 100.0%; height: 100.0%;">PONTE SC-301</div>`)[0];
+                popup_4027a8c75299faf1ddcbe2f5757339a9.setContent(html_a09390ac1d31d7c501fb044fcb00be9d);
+            
+        
+
+        marker_ddcb433e69f623dcd68b4f7b9a47ba90.bindPopup(popup_4027a8c75299faf1ddcbe2f5757339a9)
+        ;
+
+        
+    
+    
+            var marker_09e105815d3ec8c33d3bb96796892162 = L.marker(
+                [-26.18, -48.9394],
+                {}
+            ).addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+    
+        var popup_c940994786cbac83e22e932189a8d9e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a5e3b04b681d0218e46e143cd3aa5ab = $(`<div id="html_3a5e3b04b681d0218e46e143cd3aa5ab" style="width: 100.0%; height: 100.0%;">PIRABEIRABA</div>`)[0];
+                popup_c940994786cbac83e22e932189a8d9e0.setContent(html_3a5e3b04b681d0218e46e143cd3aa5ab);
+            
+        
+
+        marker_09e105815d3ec8c33d3bb96796892162.bindPopup(popup_c940994786cbac83e22e932189a8d9e0)
+        ;
+
+        
+    
+    
+            var marker_b301b5568d60fb5a7f515ef074450124 = L.marker(
+                [-26.2489, -48.9775],
+                {}
+            ).addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+    
+        var popup_dad1ddf61e713caa45292de6f88b3f2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccc73e85864467ca8fa690236b6f91b9 = $(`<div id="html_ccc73e85864467ca8fa690236b6f91b9" style="width: 100.0%; height: 100.0%;">ESTRADA DOS MORROS</div>`)[0];
+                popup_dad1ddf61e713caa45292de6f88b3f2e.setContent(html_ccc73e85864467ca8fa690236b6f91b9);
+            
+        
+
+        marker_b301b5568d60fb5a7f515ef074450124.bindPopup(popup_dad1ddf61e713caa45292de6f88b3f2e)
+        ;
+
+        
+    
+    
+            var marker_4b2de08a74dff6a00256d1b5e695765d = L.marker(
+                [-26.25, -48.85],
+                {}
+            ).addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+    
+        var popup_463ea1b007936206dd49cc3c8a02aaf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83b3943a640bdec21b66746714a59b73 = $(`<div id="html_83b3943a640bdec21b66746714a59b73" style="width: 100.0%; height: 100.0%;">JOINVILLE - FUND.</div>`)[0];
+                popup_463ea1b007936206dd49cc3c8a02aaf3.setContent(html_83b3943a640bdec21b66746714a59b73);
+            
+        
+
+        marker_4b2de08a74dff6a00256d1b5e695765d.bindPopup(popup_463ea1b007936206dd49cc3c8a02aaf3)
+        ;
+
+        
+    
+    
+            var marker_d48448a8c339ccb5fb72bea800675da5 = L.marker(
+                [-26.2667, -49.1167],
+                {}
+            ).addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+    
+        var popup_69aa2ddeee99c93f0c1f3090de1ad838 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d48d2be2859ee7871a0537524d06ece2 = $(`<div id="html_d48d2be2859ee7871a0537524d06ece2" style="width: 100.0%; height: 100.0%;">RIO DO JÚLIO</div>`)[0];
+                popup_69aa2ddeee99c93f0c1f3090de1ad838.setContent(html_d48d2be2859ee7871a0537524d06ece2);
+            
+        
+
+        marker_d48448a8c339ccb5fb72bea800675da5.bindPopup(popup_69aa2ddeee99c93f0c1f3090de1ad838)
+        ;
+
+        
+    
+    
+            var marker_62211d8d9d705f01cdd7e591af28a18a = L.marker(
+                [-26.1833, -49.0833],
+                {}
+            ).addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+    
+        var popup_29047edcc563b0d6b0aff9769af52c81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27b3e0fcd18710456204794a5f51f7c5 = $(`<div id="html_27b3e0fcd18710456204794a5f51f7c5" style="width: 100.0%; height: 100.0%;">SEGUNDO SALTO CUBATÃO</div>`)[0];
+                popup_29047edcc563b0d6b0aff9769af52c81.setContent(html_27b3e0fcd18710456204794a5f51f7c5);
+            
+        
+
+        marker_62211d8d9d705f01cdd7e591af28a18a.bindPopup(popup_29047edcc563b0d6b0aff9769af52c81)
+        ;
+
+        
+    
+    
+            var marker_3c9cc70c094f5ef7c52f7a16884482f8 = L.marker(
+                [-26.2158, -49.0806],
+                {}
+            ).addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+    
+        var popup_2f0d963b29f3415a930952f7f3a270b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5769ebb1d98bf9c60309caa277ca12a0 = $(`<div id="html_5769ebb1d98bf9c60309caa277ca12a0" style="width: 100.0%; height: 100.0%;">PRIMEIRO SALTO DO CUBATÃO</div>`)[0];
+                popup_2f0d963b29f3415a930952f7f3a270b3.setContent(html_5769ebb1d98bf9c60309caa277ca12a0);
+            
+        
+
+        marker_3c9cc70c094f5ef7c52f7a16884482f8.bindPopup(popup_2f0d963b29f3415a930952f7f3a270b3)
+        ;
+
+        
+    
+    
+                var lat_lng_popup_db0653516a1f87a003e0df3b6d960422 = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_db0653516a1f87a003e0df3b6d960422
+                        .setLatLng(e.latlng)
+                        .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
+                                    "<br>Longitude: " + e.latlng.lng.toFixed(4))
+                        .openOn(map_c795c60d7e99286bbebd0208a458fbc5);
+                    }
+                map_c795c60d7e99286bbebd0208a458fbc5.on('click', latLngPop);
+            
+    
+            tile_layer_3e50f42514dc3e907c77e896d86d6324.addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+    
+            tile_layer_3e50f42514dc3e907c77e896d86d6324.addTo(map_c795c60d7e99286bbebd0208a458fbc5);
+        
+</script>
+</html>
